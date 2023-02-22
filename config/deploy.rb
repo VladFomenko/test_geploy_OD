@@ -4,7 +4,7 @@ lock "~> 3.17.2"
 # set :application, "test_geploy_OD"
 # set :repo_url, "https://github.com/VladFomenko/test_geploy_OD"
 
-set :repo_url, 'https://github.com/VladFomenko/test_geploy_OD"'
+set :repo_url, 'https://github.com/VladFomenko/test_geploy_OD'
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, 'deployer'
