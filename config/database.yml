@@ -84,4 +84,4 @@ production:
   <<: *default
   database: gh
   username: deployer
-  password: <%= ENV.fetch('DB_PASSWORD') %>
+  password:
